@@ -24,3 +24,8 @@ min()
 
 sum()
 
+.split()
+
+.split(";")
+
+.startswith()
