@@ -29,3 +29,21 @@ sum()
 .split(";")
 
 .startswith()
+
+purse = dict()
+purse["money"] = 12
+putse["candy"] = 3
+print(purse)
+{"money": 12, "candy": 3}
+
+.get(name, 0) - only for dictionaries
+
+loops go through keys in a dictionary and not values.
+
+.keys() - returns the keys of a dictionary.
+
+.values() - returns they values of a dictionary.
+
+.items() - returns a list of key value pairs.
+
+can loop through key value pairs in a dictionary using two iteration variables.
