@@ -47,3 +47,37 @@ loops go through keys in a dictionary and not values.
 .items() - returns a list of key value pairs.
 
 can loop through key value pairs in a dictionary using two iteration variables.
+
+sorted()
+
+tuples - () - immutable nature
+
+lists - [] - mutable nature.
+
+dictionaries - {} - mutable nature.
+
+
+
+regular expression module:
+
+import re
+
+re.search()
+
+re.findall()
+
+
+
+sockets:
+
+import socket
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect( ('data.pr4e.org', 80) )
+
+.send() - send.
+
+.recv() - receive.
+
+.decode() - decode incoming data.
+
+.close() - close the connection
