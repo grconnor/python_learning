@@ -30,6 +30,8 @@ sum()
 
 .startswith()
 
+ord() - returns ordinal value of a character (ASCII)
+
 purse = dict()
 purse["money"] = 12
 putse["candy"] = 3
@@ -81,3 +83,10 @@ mysock.connect( ('data.pr4e.org', 80) )
 .decode() - decode incoming data.
 
 .close() - close the connection
+
+
+urllib:
+
+import urllib.request, urllib.parse, urllib.error
+
+handle = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
