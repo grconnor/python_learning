@@ -32,6 +32,8 @@ sum()
 
 ord() - returns ordinal value of a character (ASCII)
 
+chr() - opposite of ^
+
 purse = dict()
 purse["money"] = 12
 putse["candy"] = 3
@@ -90,3 +92,16 @@ urllib:
 import urllib.request, urllib.parse, urllib.error
 
 handle = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
+
+wire format:
+
+<person>
+  <name>
+    Connor
+  <name>
+  <phone>
+    303 4456
+  <phone>
+<person>
+
+''' - multi-line string
