@@ -105,3 +105,10 @@ wire format:
 <person>
 
 ''' - multi-line string
+
+
+JSON:
+
+import json
+
+json.loads() - load from string.
