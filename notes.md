@@ -115,3 +115,12 @@ import json
 
 json.loads() - load from string.
 json.dumps() - opposite ^
+
+definitions:
+
+class - a template.
+attribute - a variable within a class.
+method - a function within a class.
+object - a particular instance of a class.
+constructor - code that runs when an object is created.
+inheritannce - the ability to extend a class to make a new class.
