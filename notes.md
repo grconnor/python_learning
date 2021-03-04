@@ -50,6 +50,8 @@ loops go through keys in a dictionary and not values.
 
 .items() - returns a list of key value pairs.
 
+dict(connection.getheader()) - retrieves headers
+
 can loop through key value pairs in a dictionary using two iteration variables.
 
 sorted()
@@ -112,3 +114,4 @@ JSON:
 import json
 
 json.loads() - load from string.
+json.dumps() - opposite ^

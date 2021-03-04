@@ -1,0 +1,82 @@
+{
+  "results": [
+      {
+          "address_components": [
+              {
+                  "long_name": "2",
+                  "short_name": "2",
+                  "types": [
+                      "street_number"
+                  ]
+              },
+              {
+                  "long_name": "Largo dos Colegiais",
+                  "short_name": "Largo dos Colegiais",
+                  "types": [
+                      "route"
+                  ]
+              },
+              {
+                  "long_name": "\u00c9vora",
+                  "short_name": "\u00c9vora",
+                  "types": [
+                      "locality",
+                      "political"
+                  ]
+              },
+              {
+                  "long_name": "\u00c9vora",
+                  "short_name": "\u00c9vora",
+                  "types": [
+                      "administrative_area_level_1",
+                      "political"
+                  ]
+              },
+              {
+                  "long_name": "Portugal",
+                  "short_name": "PT",
+                  "types": [
+                      "country",
+                      "political"
+                  ]
+              },
+              {
+                  "long_name": "7000-803",
+                  "short_name": "7000-803",
+                  "types": [
+                      "postal_code"
+                  ]
+              }
+          ],
+          "formatted_address": "Largo dos Colegiais 2, 7000-803 \u00c9vora, Portugal",
+          "geometry": {
+              "location": {
+                  "lat": 38.572984,
+                  "lng": -7.905253999999999
+              },
+              "location_type": "ROOFTOP",
+              "viewport": {
+                  "northeast": {
+                      "lat": 38.57433298029149,
+                      "lng": -7.903905019708497
+                  },
+                  "southwest": {
+                      "lat": 38.5716350197085,
+                      "lng": -7.906602980291501
+                  }
+              }
+          },
+          "place_id": "ChIJrdL7ed3kGQ0RGyzGrF-vMWo",
+          "plus_code": {
+              "compound_code": "H3FV+5V Evora, Portugal",
+              "global_code": "8CCJH3FV+5V"
+          },
+          "types": [
+              "establishment",
+              "point_of_interest",
+              "university"
+          ]
+      }
+  ],
+  "status": "OK"
+}
