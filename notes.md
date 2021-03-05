@@ -124,3 +124,21 @@ method - a function within a class.
 object - a particular instance of a class.
 constructor - code that runs when an object is created.
 inheritannce - the ability to extend a class to make a new class.
+database - contains many tables.
+relation (or table) - contains tuples and attributes.
+tuple (or row) - a set of field that generally represents an "object" like a person or a music track.
+attribute (also column or field) - one of possibly many elements of data corresponding to the object represented by the row.
+
+
+SQL:
+
+CREATE TABLE Users(
+  name VARCHAR(128),
+  email VARCHAR(128)
+)
+INSERT INTO Users(name, email) VALUES ("Kristin", "kf@umich.edu"
+DELETE FROM Users WHERE email="ted@umich.edu"
+UPDATE Users SET name="Charles" WHERE email="csev@umich.edu"
+SELECT * FROM Users
+SELECT * FROM Users WHERE email="csev@umich.edu"
+SELECT * FROM Users ORDER BY email
